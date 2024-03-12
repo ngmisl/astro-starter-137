@@ -1,0 +1,12 @@
+[package]
+name = "ngmisl/astro-starter-137"
+version = "0.2.4"
+description = "Astro.dev Wasmer starter package"
+readme = "README.md"
+repository = "https://github.com/ngmisl/astro-starter-137"
+
+[dependencies]
+"wasmer/static-web-server" = "*"
+
+[fs]
+public = "dist"
